@@ -1,0 +1,56 @@
+Compiling the code:
+ 
+The csc.exe executable file usually is located in the Microsoft.NET\Framework\<Version> folder under the Windows directory. Its location might vary depending on the exact configuration of a particular computer. If more than one version of the .NET Framework is installed on your computer, you'll find multiple versions of this file. For more information about such installations, see How to: determine which versions of the .NET Framework are installed.
+
+
+To compile:
+
+	Csc hello_World.cpp
+
+	Default compiled binary file name is (fileName.exe)
+
+Commenting: 
+
+	// for single line comments  
+	/* for multi line comments */  
+	/// XML tags displayed in a code comment
+
+
+Re-naming compiled files:
+	
+	csc hello_World.cs -o hello.cs
+
+Data Types:
+
+	bool	Boolean value	True or False
+	byte	8-bit unsigned integer
+	char	16-bit Unicode character
+	decimal	128-bit precise decimal values with 28-29 significant digits
+	double	64-bit double-precision floating point type
+	float	32-bit single-precision floating point type
+	int	32-bit signed integer type
+	long	64-bit signed integer type
+	sbyte	8-bit signed integer type
+	short	16-bit signed integer type
+	uint	32-bit unsigned integer type
+	ulong	64-bit unsigned integer type
+	ushort	16-bit unsigned integer type
+
+
+	object obj;
+	obj = 100; // this is boxing
+
+	String str = "Tutorials Point";
+
+Outputting to the terminal:
+	
+
+
+Debugging:
+
+	creating a debugging file using -ggdb flag, similar to creating the .exe but this 	will do both. (VS Code)
+
+
+
+
+
