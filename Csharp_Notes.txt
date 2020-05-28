@@ -15,6 +15,10 @@ Commenting:
 	/* for multi line comments */  
 	/// XML tags displayed in a code comment
 
+To run the file:
+
+	mono program_name.exe
+
 
 Re-naming compiled files:
 	
