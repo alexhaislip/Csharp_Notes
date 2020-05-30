@@ -19,6 +19,11 @@ To run the file:
 
 	mono program_name.exe
 
+	OR
+
+	mcs hello.cs
+
+
 
 Re-naming compiled files:
 	
